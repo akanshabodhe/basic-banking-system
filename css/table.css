@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #02475e;
+}
+table{
+	letter-spacing: 1.2px;
+}
+table :target-within:hover{
+	background-color: #fcecdd;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #e6c4c0;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
